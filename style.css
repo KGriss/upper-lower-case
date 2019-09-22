@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'lucida_consoleregular';
+    src: url('fonts/lucida-console.eot');
+    src: url('fonts/lucida-console.eot?#iefix') format('embedded-opentype'),
+         url('fonts/lucida-console.woff2') format('woff2'),
+         url('fonts/lucida-console.woff') format('woff'),
+         url('fonts/lucida-console.ttf') format('truetype'),
+         url('fonts/lucida-console.svg#lucida_consoleregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+	font-family: "Lucida Console", lucida_consoleregular, monospace, arial, sans-serif;
+	color: #aaaaaa;
+	font-weight: normal;
+}
+
+body {
+	background-image: url("images/bkg.png");
+}
+
+/* Header */
+
+header {
+	border-bottom: dashed 1px #b5e853;
+	padding-bottom: 20px;
+	margin-top: 30px;
+}
+
+h1 {
+	color: #b5e853;
+	font-size: 2em;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+header h1 {
+	text-align: center;
+}
+
+h2 {
+	font-size: 1.3em;
+	text-align: center;
+}
+
+section {
+	margin-top: 50px;
+	margin-bottom: 70px;
+	display: flex;
+	flex-direction: column;
+}
+
+h3 {
+	color: #b5e853;
+	font-size: 1.5em;
+	width: auto;
+	margin: auto;
+}
+
+textarea,input {
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	min-height: 16px;
+	height: 16px;
+	resize: vertical;
+	background-color: #666666;
+	border: solid 3px #aaa;
+	border-radius: 25px;
+	text-align: center;
+	color: #b5e853;
+	outline: none;
+	padding: 5px 10px 5px 10px;
+	font-size: 1em;
+}
+
+h5 {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	margin: 0px;
+	color: #666666;
+}
